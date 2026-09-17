@@ -4,7 +4,7 @@
 @import "./theme/motion.css";
 
 @layer base {
-  :root { font-family: Arial, Helvetica, sans-serif; color: #243d43; background: #f7f5f0; font-synthesis: none; text-rendering: optimizeLegibility; --petrol: #0d5668; --petrol-dark: #073c49; --ink: #243d43; --muted: #627477; --ivory: #f7f5f0; --coral: #b54b57; }
+  :root { font-family: Arial, Helvetica, sans-serif; color: #243d43; background: #f7f5f0; font-synthesis: none; text-rendering: optimizeLegibility; --petrol: #0d5668; --petrol-dark: #073c49; --ink: #243d43; --muted: #4e6366; --ivory: #f7f5f0; --coral: #b54b57; }
   * { box-sizing: border-box; }
   html { scroll-behavior: smooth; }
   body { margin: 0; min-width: 320px; background: var(--ivory); }
@@ -46,8 +46,8 @@
   .hero-section h1 em { font-weight: 400; color: var(--petrol); }
   .hero-intro { max-width: 590px; margin-top: 28px; color: #4d6265; font-size: clamp(1rem, 2vw, 1.2rem); line-height: 1.75; }
   .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 24px; margin-top: 32px; }
-  .ant-btn-primary { background: var(--petrol); min-height: 50px; padding-inline: 24px; }
-  .ant-btn-primary:hover { background: var(--petrol-dark) !important; }
+  .ant-btn-primary, .ant-btn-primary > span, a.ant-btn-primary, a.ant-btn-primary > span { background: var(--petrol); color: #ffffff !important; min-height: 50px; padding-inline: 24px; }
+  .ant-btn-primary:hover, a.ant-btn-primary:hover { background: var(--petrol-dark) !important; color: #ffffff !important; }
   .text-link { min-height: 44px; display: inline-flex; align-items: center; gap: 12px; color: var(--petrol-dark); text-underline-offset: 6px; }
   .hero-art { position: relative; min-height: 300px; display: grid; place-items: center; }
   .hero-art img { width: min(100%, 560px); position: relative; z-index: 2; object-fit: contain; }

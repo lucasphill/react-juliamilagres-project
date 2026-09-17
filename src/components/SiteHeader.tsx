@@ -42,7 +42,7 @@ export function SiteHeader({ sections }: { sections: SectionDefinition[] }) {
         <span><strong>Julia Milagres</strong><small>Psicóloga clínica</small></span>
       </a>
       <nav className="desktop-nav" aria-label="Navegação principal">{links}</nav>
-      <Button ref={buttonRef} className="menu-button" type="text" icon={<MenuOutlined />} aria-expanded={open} aria-controls="mobile-navigation" aria-label={open ? 'Fechar menu' : 'Abrir menu'} onClick={() => setOpen((value) => !value)} />
+      <Button ref={buttonRef} className="menu-button" type="text" icon={<MenuOutlined />} aria-expanded={open} aria-controls="mobile-navigation" aria-label="Abrir menu" onClick={() => setOpen((value) => !value)} />
       <nav id="mobile-navigation" className="mobile-nav" aria-label="Navegação móvel" hidden={!open}>{links}</nav>
     </header>
   </>

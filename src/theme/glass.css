@@ -1,2 +1,2 @@
-.glass-panel { background: rgba(255,255,255,.66); border: 1px solid rgba(255,255,255,.72); box-shadow: 0 24px 70px rgba(13,86,104,.12), inset 0 1px 0 rgba(255,255,255,.8); backdrop-filter: blur(22px) saturate(135%); -webkit-backdrop-filter: blur(22px) saturate(135%); }
+.glass-panel { background: rgba(255,255,255,.66); border: 1px solid rgba(255,255,255,.72); box-shadow: 0 24px 70px rgba(13,86,104,.12), inset 0 1px 0 rgba(255,255,255,.8); -webkit-backdrop-filter: blur(22px) saturate(135%); backdrop-filter: blur(22px) saturate(135%); }
 @supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) { .glass-panel { background: #f8fbfa; } }

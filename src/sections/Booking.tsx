@@ -9,8 +9,8 @@ export function Booking({ booking }: { booking: BookingChannel | null }) {
   return <section id="agende-consulta" tabIndex={-1} aria-labelledby="booking-title" className="booking-section">
     <GlassPanel className="booking-panel">
       <p className="eyebrow">Agende uma consulta</p><h2 id="booking-title">Seu primeiro passo pode ser uma conversa.</h2>
-      <p>Entre em contato para conhecer o atendimento e tirar suas dúvidas. Esta solicitação inicia uma conversa; nenhum horário é reservado automaticamente.</p>
-      {available ? <div className="booking-action"><Button type="primary" size="large" href={booking.href} icon={<ArrowRightOutlined />} iconPosition="end">Falar por {booking.label}</Button><span>{booking.displayContact}</span></div> : <div className="unavailable" role="status"><strong>Canal em breve disponível</strong><span>O contato está sendo confirmado para que você fale diretamente com Julia.</span></div>}
+      <p>Entre em contato para conhecer o atendimento e tirar suas dúvidas. Esta solicitação inicia uma conversa; não há marcação automática de horário.</p>
+      {available ? <div className="booking-action"><Button type="primary" size="large" href={booking.href} icon={<ArrowRightOutlined />} iconPosition="end">Falar por {booking.label}</Button><span>{booking.displayContact}</span></div> : <div className="unavailable" role="status"><strong>Canal em breve disponível</strong><span>O canal de contato direto com Julia estará disponível aqui em breve.</span></div>}
     </GlassPanel>
   </section>
 }
