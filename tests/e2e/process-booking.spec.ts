@@ -12,9 +12,9 @@ test('exibe os três passos literais do documento', async ({ page }) => {
   await expect(page.getByText(/Uma vez iniciado, o processo terapêutico será construído em conjunto/)).toBeVisible()
 })
 
-test('exibe a chamada de agendamento sem inventar um destino de contato', async ({ page }) => {
+test('exibe a chamada de agendamento com contato por WhatsApp', async ({ page }) => {
   await page.goto('/#agende-consulta')
-  await expect(page.getByRole('heading', { name: 'Agende uma consulta:' })).toBeVisible()
+  await expect(page.getByRole('heading', { name: 'Seu primeiro passo pode ser uma conversa.' })).toBeVisible()
   await expect(page.getByText(/Pronto\(a\) para dar o primeiro passo em direção ao seu bem-estar/)).toBeVisible()
-  await expect(page.locator('#agende-consulta a')).toHaveCount(0)
+  await expect(page.getByRole('link', { name: 'Entre em contato via WhatsApp' })).toHaveAttribute('href', 'https://wa.me/5531995509080')
 })
