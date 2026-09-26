@@ -2,7 +2,7 @@ export type EditorialStatus = 'draft' | 'approved'
 export type SectionId = 'inicio' | 'sobre-mim' | 'como-funciona' | 'agende-consulta' | 'perguntas-frequentes'
 export interface SectionDefinition { id: SectionId; title: string; navLabel: string; order: number }
 export interface ProfessionalProfile {
-  name: string; profession: string; introduction: string; biography: string
+  name: string; profession: string; introduction: string; biography: string; aboutDetails: string[]
   processDescription: string; registration: string | null; modalities: string[]
   photo: { src: string; alt: string; width: number; height: number } | null
   status: EditorialStatus

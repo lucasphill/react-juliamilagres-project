@@ -66,8 +66,9 @@
   .about-section { position: relative; }
   .about-grid { display: grid; gap: 12px; border-top: 1px solid rgba(13,86,104,.2); padding-top: 34px; }
   .quote-mark { font-family: Georgia, serif; font-size: 92px; line-height: .7; color: rgba(13,86,104,.23); }
-  .large-copy { font-family: Georgia, serif; font-size: clamp(1.35rem, 3.3vw, 2.35rem); line-height: 1.5; color: #244950; max-width: 850px; }
-  .editorial-note { max-width: 620px; margin-top: 22px; color: var(--muted); font-size: 14px; line-height: 1.7; }
+  .large-copy { font-family: Georgia, serif; font-size: clamp(1.4rem, 2.5vw, 2rem); line-height: 1.48; color: #244950; max-width: 820px; }
+  .about-details { max-width: 760px; margin-top: 30px; color: var(--muted); font-size: clamp(1rem, 1.35vw, 1.1rem); line-height: 1.8; }
+  .about-details p + p { margin-top: 20px; }
   .process-section { max-width: none; background: var(--petrol-dark); color: #dfeeed; }
   .process-section > * { max-width: 1132px; margin-left: auto; margin-right: auto; }
   .process-section .eyebrow { color: #91b8b8; }

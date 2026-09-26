@@ -6,7 +6,13 @@ export const site: SiteContent = {
   profile: {
     name: 'Julia Milagres', profession: 'Psicóloga clínica',
     introduction: 'Um convite para olhar para si com mais gentileza. Conheça este espaço e encontre o seu próximo passo.',
-    biography: 'Cada história merece ser ouvida com cuidado. Este é o espaço de Julia Milagres, psicóloga clínica, para apresentar seu trabalho e facilitar o primeiro contato.',
+    biography: 'Minha jornada na psicologia é guiada pela crença no potencial humano e na força das conexões. Como Psicóloga Integrativa, minha prática une a Psicologia Cognitivo-Comportamental (TCC) e a Psicologia Sistêmica para oferecer um suporte completo e personalizado.',
+    aboutDetails: [
+      'Na TCC, exploramos juntos os padrões de comportamento e pensamento que influenciam sua vida, desenvolvendo estratégias práticas para promover mudanças significativas. Com a abordagem Sistêmica, olhamos para as dinâmicas de seus relacionamentos e contextos, compreendendo como eles moldam sua experiência e bem-estar. Essa integração permite uma visão holística e intervenções que consideram você em sua totalidade.',
+      'Meu compromisso é com um atendimento acolhedor e empático, onde você se sinta seguro(a) para explorar suas questões e descobrir seus próprios recursos. Atendo crianças, adolescentes, adultos e idosos, com sensibilidade às particularidades de cada fase da vida.',
+      'Com uma sólida experiência em Recursos Humanos, trago também uma compreensão aprofundada das dinâmicas interpessoais e organizacionais, enriquecendo a análise das suas relações e desafios.',
+      'Acredito que cada história é única e merece uma escuta atenta e um espaço para florescer. Meu propósito é te acompanhar na construção de um caminho de autoconhecimento, crescimento e bem-estar duradouro, capacitando-o(a) a viver com mais autonomia e significado.',
+    ],
     processDescription: 'Uma vez iniciado, o processo terapêutico será construído em conjunto, com base nas suas necessidades e objetivos. Utilizaremos as ferramentas da TCC e a compreensão sistêmica para promover seu autoconhecimento, desenvolvimento e bem-estar.',
     registration: null, modalities: [], photo: null, status: 'draft',
   },
