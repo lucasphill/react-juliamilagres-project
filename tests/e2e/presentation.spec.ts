@@ -4,7 +4,7 @@ test('apresenta nome, profissão e conteúdo institucional no celular', async ({
   await page.setViewportSize({ width: 390, height: 844 })
   await page.goto('/')
   await expect(page.getByRole('heading', { level: 1, name: /um espaço para se ouvir/i })).toBeVisible()
-  await expect(page.getByText('Psicologia clínica', { exact: true }).first()).toBeVisible()
+  await expect(page.getByText('Psicóloga Clínica Integrativa', { exact: true }).first()).toBeVisible()
   await expect(page.getByRole('heading', { name: /escuta atenta/i })).toBeVisible()
   await expect(page.locator('#sobre-mim .large-copy')).toContainText('Minha jornada na psicologia')
   await expect(page.locator('#sobre-mim .about-details p')).toHaveCount(4)

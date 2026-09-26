@@ -14,7 +14,7 @@ export const site: SiteContent = {
       'Acredito que cada história é única e merece uma escuta atenta e um espaço para florescer. Meu propósito é te acompanhar na construção de um caminho de autoconhecimento, crescimento e bem-estar duradouro, capacitando-o(a) a viver com mais autonomia e significado.',
     ],
     processDescription: 'Uma vez iniciado, o processo terapêutico será construído em conjunto, com base nas suas necessidades e objetivos. Utilizaremos as ferramentas da TCC e a compreensão sistêmica para promover seu autoconhecimento, desenvolvimento e bem-estar.',
-    registration: null, modalities: [], photo: null, status: 'draft',
+    registration: 'CRP-04 / 87783', modalities: [], photo: null, status: 'draft',
   },
   sections: [
     { id: 'inicio', title: 'Início', navLabel: 'Início', order: 0 },

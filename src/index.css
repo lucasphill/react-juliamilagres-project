@@ -95,17 +95,27 @@
   .faq-answer ul { padding-left: 24px; }
   .faq-answer li + li { margin-top: 8px; }
   .site-footer { background: #062f39; color: white; padding: 64px 24px 28px; }
-  .footer-inner { max-width: 1132px; margin: auto; display: grid; gap: 34px; align-items: center; }
-  .footer-inner img { width: 220px; filter: brightness(0) invert(1); opacity: .88; }
+  .footer-inner { max-width: 1132px; margin: auto; display: grid; gap: 28px; align-items: center; justify-items: center; text-align: center; }
+  .footer-logo { width: 100%; display: flex; align-items: center; justify-content: center; }
+  .footer-logo img { width: min(220px, 100%); filter: brightness(0) invert(1); opacity: .88; }
   .footer-inner strong, .footer-inner span { display: block; }
   .footer-inner strong { font-family: Georgia, serif; font-weight: 400; font-size: 1.35rem; }
   .footer-inner span { color: #abc2c3; font-size: 13px; margin-top: 6px; }
-  .footer-links { display: flex; flex-direction: column; gap: 10px; align-items: flex-start; }
-  .footer-links a { min-height: 44px; display: inline-flex; align-items: center; text-underline-offset: 5px; }
-  .footer-note { max-width: 1132px; margin: 40px auto 0; padding-top: 22px; border-top: 1px solid rgba(255,255,255,.12); color: #91aeb0; font-size: 12px; line-height: 1.6; }
+  .footer-links { width: 100%; display: flex; flex-direction: column; align-items: center; gap: 20px; }
+  .footer-nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 0 18px; }
+  .footer-nav a { min-height: 44px; display: inline-flex; align-items: center; font-size: 13px; text-decoration: none; }
+  .footer-nav a:hover { text-decoration: underline; text-underline-offset: 5px; }
+  .footer-social { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 12px 20px; }
+  .footer-social-link { min-height: 44px; display: inline-flex; align-items: center; color: #dfeeed; text-underline-offset: 5px; }
+  .footer-disclaimer { max-width: 1132px; margin: 40px auto 0; color: #abc2c3; font-size: 12px; line-height: 1.6; }
+  .footer-note { max-width: 1132px; margin: 18px auto 0; padding-top: 22px; border-top: 1px solid rgba(255,255,255,.12); color: #abc2c3; font-size: 12px; line-height: 1.6; }
+  .footer-credits { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; }
+  .footer-note a { color: inherit; text-underline-offset: 4px; }
 }
 
-@media (min-width: 620px) { .brand-mark span { display: block; } .process-grid { grid-template-columns: repeat(3, 1fr); gap: 32px; } .footer-inner { grid-template-columns: 1.3fr 1fr 1fr; } }
+@media (min-width: 620px) { .brand-mark span { display: block; } .process-grid { grid-template-columns: repeat(3, 1fr); gap: 32px; } }
+@media (min-width: 900px) { .footer-inner { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px; } }
+@media (max-width: 619px) { .footer-disclaimer, .footer-note { text-align: center; } .footer-credits { justify-content: center; } }
 @media (min-width: 860px) { .site-header { top: 20px; min-height: 76px; padding: 10px 16px 10px 22px; } .desktop-nav { display: flex; align-items: center; gap: 28px; } .menu-button, .mobile-nav { display: none !important; } .hero-section { grid-template-columns: 1.15fr .85fr; min-height: 88svh; padding: 145px 42px 50px; } .about-grid { grid-template-columns: 120px 1fr; } .section { padding: 125px 42px; } .about-section { padding-top: 80px; } .booking-section { padding: 120px 42px; } }
 @media (max-width: 420px) { .site-header { left: 10px; right: 10px; top: 8px; } .hero-section { padding-inline: 20px; } .hero-actions .ant-btn { width: 100%; } }
 @media (max-width: 859px) { .brand-mark__picture { height: 46px; } }
