@@ -14,7 +14,6 @@ export function Hero({ site }: { site: SiteContent }) {
     </div>
     <div className="hero-art reveal" aria-label="Identidade visual de Julia Milagres">
       <div className="hero-orbit" /><img src={site.brand.logo} alt={site.brand.alternativeText} width="560" height="280" />
-      <p>“Cuidar de si também é uma forma de recomeçar.”</p>
     </div>
   </section>
 }
