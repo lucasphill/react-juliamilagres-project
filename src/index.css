@@ -57,7 +57,7 @@
   .hero-orbit::before, .hero-orbit::after { content: ''; position: absolute; border: 1px solid rgba(181,75,87,.28); border-radius: 50%; }
   .hero-orbit::before { inset: 12%; }
   .hero-orbit::after { width: 13px; height: 13px; background: var(--coral); border: 0; top: 9%; right: 18%; box-shadow: 0 0 0 9px rgba(181,75,87,.08); }
-  .hero-glow { position: absolute; opacity: .55; border-radius: 72% 28% 64% 36% / 49% 40% 60% 51%; transform: rotate(-18deg); }
+  .hero-glow { position: absolute; border-radius: 50%; opacity: .55; }
   .hero-glow-one { width: 260px; height: 260px; background: rgba(126,194,190,.22); right: -110px; top: 80px; }
   .hero-glow-two { width: 180px; height: 180px; background: rgba(181,75,87,.08); left: -80px; bottom: 15%; transform: rotate(24deg); }
   .section { max-width: 1180px; margin: auto; padding: 92px 24px; }
