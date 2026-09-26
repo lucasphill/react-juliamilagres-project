@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
 @layer theme, base, antd, components, utilities;
 @import "tailwindcss";
 @import "./theme/glass.css";
@@ -56,9 +57,9 @@
   .hero-orbit::before, .hero-orbit::after { content: ''; position: absolute; border: 1px solid rgba(181,75,87,.28); border-radius: 50%; }
   .hero-orbit::before { inset: 12%; }
   .hero-orbit::after { width: 13px; height: 13px; background: var(--coral); border: 0; top: 9%; right: 18%; box-shadow: 0 0 0 9px rgba(181,75,87,.08); }
-  .hero-glow { position: absolute; border-radius: 50%; opacity: .55; }
+  .hero-glow { position: absolute; opacity: .55; border-radius: 72% 28% 64% 36% / 49% 40% 60% 51%; transform: rotate(-18deg); }
   .hero-glow-one { width: 260px; height: 260px; background: rgba(126,194,190,.22); right: -110px; top: 80px; }
-  .hero-glow-two { width: 180px; height: 180px; background: rgba(181,75,87,.08); left: -80px; bottom: 15%; }
+  .hero-glow-two { width: 180px; height: 180px; background: rgba(181,75,87,.08); left: -80px; bottom: 15%; transform: rotate(24deg); }
   .section { max-width: 1180px; margin: auto; padding: 92px 24px; }
   .section-heading { max-width: 720px; margin-bottom: 44px; }
   .section h2, .booking-section h2 { font-size: clamp(2.4rem, 6vw, 4.8rem); line-height: 1.05; letter-spacing: -.045em; }
@@ -101,6 +102,8 @@
   .footer-logo img { display: block; width: min(150px, 100%); filter: brightness(0) invert(1); }
   .footer-inner strong, .footer-inner span { display: block; }
   .footer-inner strong { font-family: Georgia, serif; font-weight: 400; font-size: 1.35rem; }
+  .footer-identity { font-family: 'Montserrat', sans-serif; text-transform: uppercase; }
+  .footer-identity strong { font-family: inherit; font-weight: 600; }
   .footer-inner span { color: #abc2c3; font-size: 13px; margin-top: 6px; }
   .footer-nav { width: 100%; display: flex; flex-wrap: wrap; justify-content: center; gap: 0 18px; }
   .footer-nav a { min-height: 44px; display: inline-flex; align-items: center; font-size: 13px; text-decoration: none; }

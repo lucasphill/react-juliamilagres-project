@@ -23,7 +23,7 @@ export function SiteFooter({ site }: { site: SiteContent }) {
     <p className="footer-disclaimer">Este site oferece informações institucionais e não substitui atendimento profissional ou serviço de emergência.</p>
     <div className="footer-note">
       <div className="footer-credits">
-        <span>© 2026 Julia Milagres. Todos os direitos reservados.</span>
+        <span>© 2026 Júlia Milagres. Todos os direitos reservados.</span>
         <a href="https://www.linkedin.com/in/lucasphillscp/" target="_blank" rel="noopener noreferrer">Desenvolvido por: Lucas Phill Soares Correa Pinto</a>
       </div>
     </div>

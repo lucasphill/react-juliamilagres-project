@@ -53,12 +53,12 @@ export function SiteHeader({ sections }: { sections: SectionDefinition[] }) {
   return <>
     <a className="skip-link" href="#conteudo">Ir para o conteúdo</a>
     <header className="site-header glass-panel" onPointerEnter={cancelHoverClose} onPointerLeave={scheduleHoverClose}>
-      <a className="brand-mark" href="#inicio" onClick={navigate} aria-label="Julia Milagres — voltar ao início">
+      <a className="brand-mark" href="#inicio" onClick={navigate} aria-label="Júlia Milagres — voltar ao início">
         <picture className="brand-mark__picture">
           <source media="(max-width: 859px)" srcSet={baloon} type="image/svg+xml" />
           <img src={symbol} alt="" width="64" height="48" />
         </picture>
-        <span><strong>Julia Milagres</strong><small>Psicóloga Clínica<br />Integrativa</small></span>
+        <span><strong>Júlia Milagres</strong><small>Psicóloga Clínica<br />Integrativa</small></span>
       </a>
       <nav className="desktop-nav" aria-label="Navegação principal">{links}</nav>
       <Button ref={buttonRef} className="menu-button" type="text" icon={<MenuOutlined />} aria-expanded={open} aria-controls="mobile-navigation" aria-label={open ? 'Fechar menu' : 'Abrir menu'} onPointerEnter={() => { if (hoverEnabled()) setOpen(true) }} onClick={() => setOpen((value) => !value)} />

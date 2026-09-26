@@ -4,7 +4,7 @@ import symbol from '../assets/icon.png'
 
 export const site: SiteContent = {
   profile: {
-    name: 'Julia Milagres', profession: 'Psicóloga clínica',
+    name: 'Júlia Milagres', profession: 'Psicóloga clínica',
     introduction: 'Um convite para olhar para si com mais gentileza. Conheça este espaço e encontre o seu próximo passo.',
     biography: 'Minha jornada na psicologia é guiada pela crença no potencial humano e na força das conexões. Como Psicóloga Integrativa, minha prática une a Psicologia Cognitivo-Comportamental (TCC) e a Psicologia Sistêmica para oferecer um suporte completo e personalizado.',
     aboutDetails: [
@@ -81,7 +81,7 @@ export const site: SiteContent = {
       answer: 'O valor da sessão será **informado durante o nosso primeiro contato**. Entendo que esta é uma informação importante e farei questão de esclarecer todas as suas dúvidas sobre os honorários e as formas de pagamento.',
     },
   ],
-  brand: { logo, symbol, alternativeText: 'Julia Milagres — psicóloga clínica' },
-  seo: { title: 'Julia Milagres | Psicóloga clínica', description: 'Conheça Julia Milagres, psicóloga clínica. Saiba mais sobre o atendimento, esclareça suas dúvidas e encontre o caminho para o primeiro contato.', locale: 'pt-BR', siteUrl: null },
+  brand: { logo, symbol, alternativeText: 'Júlia Milagres — psicóloga clínica' },
+  seo: { title: 'Júlia Milagres | Psicóloga clínica', description: 'Conheça Júlia Milagres, psicóloga clínica. Saiba mais sobre o atendimento, esclareça suas dúvidas e encontre o caminho para o primeiro contato.', locale: 'pt-BR', siteUrl: null },
   editorialStatus: 'draft', reviewedAt: null,
 }
