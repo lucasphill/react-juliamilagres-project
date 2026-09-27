@@ -5,7 +5,6 @@ import { useSectionNavigation } from '../components/useSectionNavigation'
 export function Hero({ site }: { site: SiteContent }) {
   const navigate = useSectionNavigation()
   return <section id="inicio" tabIndex={-1} className="hero-section" aria-labelledby="hero-title">
-    <div className="hero-glow hero-glow-one" /><div className="hero-glow hero-glow-two" />
     <div className="hero-copy reveal">
       <p className="eyebrow"><span>Psicóloga Clínica Integrativa</span> · escuta e acolhimento</p>
       <h1 id="hero-title">Um espaço para<br /><em>se ouvir por inteiro.</em></h1>
