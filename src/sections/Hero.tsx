@@ -1,6 +1,7 @@
 import { Button } from 'antd'
 import type { SiteContent } from '../models/site'
 import { useSectionNavigation } from '../components/useSectionNavigation'
+import photo from '../assets/photo.webp'
 
 export function Hero({ site }: { site: SiteContent }) {
   const navigate = useSectionNavigation()
@@ -11,8 +12,8 @@ export function Hero({ site }: { site: SiteContent }) {
       <p className="hero-intro">{site.profile.introduction}</p>
       <div className="hero-actions"><Button className="appointment-button" type="primary" size="large" href="#agende-consulta" onClick={navigate}>Agende uma consulta</Button><a className="text-link" href="#sobre-mim" onClick={navigate}>Conheça meu trabalho <span>↓</span></a></div>
     </div>
-    <div className="hero-art reveal" aria-label="Identidade visual de Júlia Milagres">
-      <div className="hero-orbit" /><img src={site.brand.logo} alt={site.brand.alternativeText} width="560" height="280" />
+    <div className="hero-art reveal" aria-label="Foto de Júlia Milagres">
+      <div className="hero-orbit" /><img src={photo} alt="Júlia Milagres" width="560" height="560" />
     </div>
   </section>
 }
