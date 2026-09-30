@@ -8,9 +8,9 @@ export function Hero({ site }: { site: SiteContent }) {
   return <section id="inicio" tabIndex={-1} className="hero-section" aria-labelledby="hero-title">
     <div className="hero-copy reveal">
       <p className="eyebrow"><span>Psicóloga Clínica Integrativa</span> · escuta e acolhimento</p>
-      <h1 id="hero-title">Um espaço para<br /><em>se ouvir por inteiro.</em></h1>
+      <h1 id="hero-title">Talvez você esteja<br /><em>vivendo uma fase difícil.</em></h1>
       <p className="hero-intro">{site.profile.introduction}</p>
-      <div className="hero-actions"><Button className="appointment-button" type="primary" size="large" href="#agende-consulta" onClick={navigate}>Agende uma consulta</Button><a className="text-link" href="#sobre-mim" onClick={navigate}>Conheça meu trabalho <span>↓</span></a></div>
+      <div className="hero-actions"><Button className="appointment-button" type="primary" size="large" href="#agende-consulta" onClick={navigate}>Marque uma conversa inicial</Button><a className="text-link" href="#sobre-mim" onClick={navigate}>Conheça meu trabalho <span>↓</span></a></div>
     </div>
     <div className="hero-art reveal" aria-label="Foto de Júlia Milagres">
       <div className="hero-orbit" /><img src={photo} alt="Júlia Milagres" width="560" height="560" />
