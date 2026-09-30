@@ -18,6 +18,7 @@ export function SiteFooter({ site }: { site: SiteContent }) {
       <div className="footer-social">
         {validBooking(site.booking) && <a className="footer-social-link" href={site.booking.href} target="_blank" rel="noopener noreferrer">WhatsApp</a>}
         <a className="footer-social-link" href="https://www.instagram.com/juliaamilagres.psi" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a className="footer-social-link" href="https://www.doctoralia.com.br/julia-milagres/psicologo/belo-horizonte" target="_blank" rel="noopener noreferrer">Doctoralia</a>
       </div>
     </div>
     <p className="footer-disclaimer">Este site oferece informações institucionais e não substitui atendimento profissional ou serviço de emergência.</p>
