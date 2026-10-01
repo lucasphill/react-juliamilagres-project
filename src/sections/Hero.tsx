@@ -8,7 +8,7 @@ export function Hero({ site }: { site: SiteContent }) {
   return <section id="inicio" tabIndex={-1} className="hero-section" aria-labelledby="hero-title">
     <div className="hero-copy reveal">
       <p className="eyebrow"><span>Psicóloga Clínica Integrativa</span> · escuta e acolhimento</p>
-      <h1 id="hero-title">Talvez você esteja<br /><em>vivendo uma fase difícil.</em></h1>
+      <h1 id="hero-title">Um convite para olhar para si<br /><em>com mais gentileza.</em></h1>
       <p className="hero-intro">{site.profile.introduction}</p>
       <div className="hero-actions"><Button className="appointment-button" type="primary" size="large" href="#agende-consulta" onClick={navigate}>Marque uma conversa inicial</Button><a className="text-link" href="#sobre-mim" onClick={navigate}>Conheça meu trabalho <span>↓</span></a></div>
     </div>
