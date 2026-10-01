@@ -14,7 +14,7 @@ export function LandingPage({ content = defaultSite }: { content?: SiteContent }
   return <div className="site-shell">
     <FixedLeafBackground />
     <SiteHeader sections={content.sections} />
-    <main id="conteudo"><Hero site={content} /><About profile={content.profile} /><Process profile={content.profile} /><Booking booking={content.booking} /><Faq faq={content.faq} /></main>
+    <main id="conteudo"><Hero site={content} /><About profile={content.profile} /><Process /><Booking booking={content.booking} /><Faq faq={content.faq} /></main>
     <SiteFooter site={content} />
   </div>
 }
