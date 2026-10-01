@@ -5,7 +5,7 @@ import symbol from '../assets/icon.png'
 export const site: SiteContent = {
   profile: {
     name: 'Júlia Milagres', profession: 'Psicóloga clínica',
-    introduction: 'Um convite para olhar para si com mais gentileza. Conheça este espaço e encontre o seu próximo passo.',
+    introduction: 'Conheça este espaço e encontre o seu próximo passo.',
     biography: "Existem fases da vida em que aquilo que antes funcionava já não parece suficiente. Uma perda, uma doença, uma mudança profissional, um conflito familiar ou uma ansiedade persistente podem modificar a forma como nos relacionamos conosco e com o mundo.",
     aboutDetails: [
       "Minha prática clínica parte da escuta atenta e do respeito à singularidade de cada história. Como Psicóloga Integrativa, uno recursos da TCC, da ACT e da Psicologia Sistêmica para oferecer um acompanhamento que seja, ao mesmo tempo, acolhedor, reflexivo e prático.",
